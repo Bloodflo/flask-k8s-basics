@@ -1,36 +1,10 @@
-# Python
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-*.egg-info/
-dist/
-build/
-
-# Docker
-*.log
-.docker/
-
-# Kubernetes
-*.kubeconfig
+*.pyc
 *.key
 *.crt
 *.pem
-
-# IDE
+.minikube/
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-
-# OS
+*.log
 .DS_Store
-Thumbs.db
-
-# Minikube
-.minikube/
